@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap");
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.hover > svg {
+  transition: all ease-in-out 0.3s;
+}
+
+.hover:hover > svg {
+  margin-left: 20px;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  visibility: visible;
+}
